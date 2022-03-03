@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family:Roboto;
+}
+main{
+    padding: 30px 100px;
+}
+
+h2{
+    
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+.desc{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    width: 662px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.photo1{
+    width: 314px;
+    height: 315px;
+}
+.photo2{
+    width: 232px;
+    height: 203px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+}
+.desc2{
+    display: flex;
+    margin-left: 13%;
+}    
+.margin{
+    margin-top: 60px;
+}
+img{
+   width: 232px;
+    height: 203px;
+}
+span{
+    width: 150px;
+    margin-right: 80px;
+}
+span h3{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 25px;
+}
+span p{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px; 
+}
+@media screen and ( min-width:840px ) and ( max-width:1120px ) {
+    .photo2{
+        display: none;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .desc{
+        width: 383.41px;
+        font-size: 14px;
+    }
+    .photo1{
+        width: 181.86px;
+        height: 182.44px; 
+    }
+    span h3{
+        font-size: 15px;
+    }
+    span p{
+        font-size: 11px;
+    }
+    .desc2{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:840px) {
+    .photo2{
+        display: none;
+    }
+    h2{
+        font-size: 26px;
+    }
+    .desc{
+        width: 308.47px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .photo1{
+        width: 170.55px;
+        height: 160.29px;
+    }
+    span h3{
+        font-size: 12px;
+    }
+    span p{
+        font-size: 10px;
+    }
+    .desc2{
+        margin-left: 0;
+    }
+    .box{
+        display: block;
+    }
+    .mobile{
+        display: flex;
+        justify-content: center;
+    }
+    .desc2 {
+        flex-wrap: wrap;
+    }
+}
+
